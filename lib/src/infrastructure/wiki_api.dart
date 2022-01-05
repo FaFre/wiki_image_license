@@ -98,6 +98,10 @@ class WikiApi {
     assert((titles != null) ^ (pageIds != null),
         'Either a list of titles or pageids must be provided');
 
+    if ((titles?.isEmpty ?? true) && (pageIds?.isEmpty ?? true)) {
+      return WikiResult([], [], []);
+    }
+
     final response = await _query(QueryRequest(
         props: props,
         pageIds: pageIds,
