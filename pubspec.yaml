@@ -20,4 +20,4 @@ dependencies:
   freezed_annotation: ^1.0.0
   html: ^0.15.0
   http: ^0.13.4
-  json_annotation: ^4.3.0
+  json_annotation: ^4.4.0

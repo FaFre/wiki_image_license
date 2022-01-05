@@ -3,6 +3,6 @@
 /// More dartdocs go here.
 library wiki_image_license;
 
-export 'src/wiki_image_license_base.dart';
+export 'src/infrastructure/wiki_api.dart';
 
 // TODO: Export any libraries intended for clients of this package.
